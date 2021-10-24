@@ -6,7 +6,7 @@ import { Provider } from 'react-redux';
 import App from './App';
 import './App.css';
 import 'antd/dist/antd.css';
-import { store } from './app/store';
+import  store from './app/store';
 
 ReactDOM.render(
     <Router>
