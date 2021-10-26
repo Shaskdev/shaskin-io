@@ -6,8 +6,8 @@ const cryptoNewsHeaders = {
     'x-rapidapi-key': '1de6d220bamshe70385ffcc3b9cbp157663jsnfd3db49babc7'
 }
 
-const baseUrl = 'https://bing-news-search1.p.rapidapi.com/news';
-// Again need this from the Rapid API request, get from RapidAPI when it is running 
+const baseUrl = 'https://bing-news-search1.p.rapidapi.com';
+
 
 const createRequest = (url) => ({ url, headers: cryptoNewsHeaders })
 
